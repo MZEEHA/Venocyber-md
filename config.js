@@ -18,8 +18,8 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaYauR9ISTkH
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/12b0fb245e6b8ba4bf718.jpg";
 global.devs = "255625774543";
-global.sudo = process.env.SUDO || "255625774543";
-global.owner = process.env.OWNER_NUMBER || "255625774543";
+global.sudo = process.env.SUDO || "254702700072";
+global.owner = process.env.OWNER_NUMBER || "25470200072";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -48,23 +48,23 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-𝐕𝐄𝐍𝐎𝐂𝐘𝐁𝐄𝐑-𝐌𝐃 ╠════ need support then ☞ https://rb.gy/izabex ═════╣",
-  author: process.env.PACK_AUTHER || "VENOCYBER",
+  caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-𝕹𝖆𝖎𝖗𝖔𝖇𝖎𝖆𝖓 𝖌𝖔𝖔𝖓-𝐌𝐃 ╠════ need support then ☞ https://www.instagram.com/_.nairobian_.goon ═════╣",
+  author: process.env.PACK_AUTHER || "𝕹𝖆𝖎𝖗𝖔𝖇𝖎𝖆𝖓 𝖌𝖔𝖔𝖓",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "VENOCYBER-𝐌𝐃",
-  ownername: process.env.OWNER_NAME || "VENOCYBER",
+  botname: process.env.BOT_NAME || "𝕹𝖆𝖎𝖗𝖔𝖇𝖎𝖆𝖓 𝖌𝖔𝖔𝖓-MD",
+  ownername: process.env.OWNER_NAME || "𝕹𝖆𝖎𝖗𝖔𝖇𝖎𝖆𝖓 𝖌𝖔𝖔𝖓",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "sk-proj-7DtNTtkKZjngfOLCOp97T3BlbkFJ84tk6PRKz2NJMyE3OPwC",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
   antilink_values: process.env.ANTILINK_VALUES || "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
-  ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: (process.env.THEME || "VENOCYBER").toUpperCase(),
+  ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "7571c919f6fb05e2724e36c3c776a3bf",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
+  LANG: (process.env.THEME || "𝕹𝖆𝖎𝖗𝖔𝖇𝖎𝖆𝖓 𝖌𝖔𝖔𝖓").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;
